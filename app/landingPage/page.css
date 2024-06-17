@@ -123,13 +123,13 @@
 }
 .string-phoneContainer{
     /* margin-top: 5em; */
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
 }
 .stringLetterContainer{
     width: 50%;
     margin: auto;
     /* margin-top: 23%; */
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
  
 }
 .stringLetterContainer .string{
@@ -170,7 +170,7 @@
     width: 60%;
     margin: auto;
     margin-top: 10%;
-    border: 2px dashed grey;
+    /* border: 2px dashed grey; */
 }
 .getStarted{
     width: 15em;
