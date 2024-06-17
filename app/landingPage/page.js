@@ -39,9 +39,9 @@ export default function LandingPage() {
                     <p>TagLink</p>
                 </div>
             </div>
-            <div style={{display:"flex"}}>
+            <div className="string-phoneContainer"style={{display:"flex"}}>
                 <div className="stringLetterContainer">
-                    <p className="string">STORE & RECEIVE INFORMATION EFFICIENTLY FOR CAR DEALERS</p>
+                    <p className="string">Effortlessly Manage Vehicle Information with NFC Technology - Streamline Your Dealership Operations!</p>
                 </div>
                 <div className="phoneContainer">
                     <Image className="phone" src={phone}/>
