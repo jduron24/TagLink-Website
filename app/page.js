@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="deviceContainer">
           <Video className="screenRecording"  src={ScreenRecording}/>
-        </div> 
+        </div>  
       </div>
       <div className="savingCompanyContainer" >
         <div className="savingTimeContainer">
