@@ -1,7 +1,11 @@
 import Head from "next/head";
+import Video from"next-video"
+import ScreenRecording from "@/videos/phoneVideo.mp4"
 import image from "../public/emblem.png"
+import clock from "../public/clock.png"
 import Image from "next/image"
 import Link from 'next/link';
+import effort from "../public/effort.png"
 
 export default function Home() {
   return (
@@ -50,12 +54,13 @@ export default function Home() {
           </div>
         </div>
         <div className="deviceContainer">
-
+          <Video className="screenRecording"  src={ScreenRecording}/>
         </div>
       </div>
-      <div className="savingCompanyContainer">
+      <div className="savingCompanyContainer" >
         <div className="savingTimeContainer">
           <div className="pictureContainer">
+            <Image className="clock"src={clock} />
           </div>
           <div className="stringContainer">
               <div className="header">
@@ -93,6 +98,7 @@ export default function Home() {
                 </div>
             </div>
           <div className="pictureContainer">
+            <Image src={effort}/>
           </div>
         </div>
       </div>

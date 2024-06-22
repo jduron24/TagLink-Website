@@ -122,7 +122,10 @@ body {
     height: 28em;
     width: 15em;
     margin-left: 3em;
-    border:2px solid #AEADAD;
+    /* border:2px solid #AEADAD; */
+  }
+  .screenRecording{
+    min-height: 30rem;
   }
   .savingCompanyContainer{
     margin: auto;
@@ -133,15 +136,15 @@ body {
   .savingTimeContainer .pictureContainer{
     width: 20em;
     height: 20em;
-    margin-left: 8em;
-    margin-top: 1.3em;
-    border: 1px solid #AEADAD;
+    margin-left: 6em;
+    margin-top: 1.5em;
+    /* border: 1px solid #AEADAD; */
   }
   .savingTimeContainer{
     display: flex;
   }  
   .savingCompanyContainer .stringContainer{
-    margin-left: 4em;
+    margin-left: 5em;
     width: 26em;
     
   }
@@ -163,9 +166,9 @@ body {
   .savingEffortContainer .pictureContainer{
     width: 20em;
     height: 20em;
-    margin-left: 8em;
+    margin-left: 3em;
     margin-top: 1.3em;
-    border: 1px solid #AEADAD;
+    /* border: 1px solid #AEADAD; */
   }
   .aboutTagLinkContainer{
     background-color: #FEFDFD ;
