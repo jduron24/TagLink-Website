@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@mux/mux-node": "^8.8.0",
     "next": "14.2.3",
     "next-video": "^1.1.0",
     "react": "^18",
