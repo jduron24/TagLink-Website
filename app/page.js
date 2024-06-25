@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Video from"next-video"
-import ScreenRecording from "@/videos/phoneVideo.mp4"
+// import ScreenRecording from "@/videos/phoneVideo.mp4"
 import image from "../public/emblem.png"
 import clock from "../public/clock.png"
 import Image from "next/image"
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className="deviceContainer">
-          <Video className="screenRecording"  src={ScreenRecording}/>
+          {/* <Video className="screenRecording"  src={ScreenRecording}/> */}
         </div>  
       </div>
       <div className="savingCompanyContainer" >

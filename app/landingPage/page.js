@@ -1,6 +1,6 @@
 'use client'
 import image from "../../public/emblem.png"
-import phone from "../../public/phoneWithLogo.png"
+import phone from "../../public/landingPagePhone.png"
 import './page.css'
 import Image from "next/image"
 import emailjs from '@emailjs/browser';

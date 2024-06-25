@@ -23,20 +23,22 @@
     margin-left: 0.3em;
 }
 .string-phoneContainer{
-    margin-top: 5em;
+    margin-top: 2em;
     /* border: 2px dashed grey; */
 }
 .stringLetterContainer{
     width: 30em;
     margin: auto;
-    margin-top: 13%;
- 
+    margin-top: auto;
+    /* border: 2px dashed grey; */
 }
 .stringLetterContainer .string{
     text-align: center;
     font-size: 1.7em;
+    color: white;
     letter-spacing: 0.1em;
     font-weight: 600;
+    margin-left: 2rem;
     /* border: 2px dashed grey; */
 }
 .secondHalfContainer{
@@ -79,14 +81,13 @@
     background-color: #1099D6;
 }
 .phoneContainer{
-    max-width: 100%;
-    height: 100%;
+    
     width: auto\9; /* ie8 */
     margin: auto;
     /* border: 2px dashed grey; */
 }
 .phone{
-    height: 90%;
+    
     /* object-fit:cover; */
     /* border: 2px dashed grey; */
 }
