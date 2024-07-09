@@ -1,24 +1,27 @@
 import Head from "next/head";
-import Video from"next-video"
-// import ScreenRecording from "@/videos/phoneVideo.mp4"
-import image from "../public/emblem.png"
+import NextVideo from"next-video"
+import screenRecording from "/videos/updatedVideo.mp4"
+import image from "../public/emblem.png"  
 import clock from "../public/clock.png"
 import Image from "next/image"
-import Link from 'next/link';
-import effort from "../public/effort.png"
+import Link from 'next/link';  
 
+import effort from "../public/effort.png"
+ 
+ 
 export default function Home() {
-  return (
+  
+  return (  
     <main className="main"  style={{backgroundColor:"#363636"}}>
       <nav className="navBar" style={{backgroundColor:"#363636"}}>
         <div className="TagLinkHomeScreenContainer">
           <div className="TagLinkLogo" style={{display:"flex"}}>
-            <Image className="TagLinkLogo"src={image} />
+            <Image className="TagLinkLogo"src={image}  />
             <div className="TagLinkName">
               <p>TagLink</p>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> 
         <div className="aboutUsContainer">
           <div className="aboutUs">
             
@@ -54,7 +57,7 @@ export default function Home() {
           </div>
         </div>
         <div className="deviceContainer">
-          {/* <Video className="screenRecording"  src={ScreenRecording}/> */}
+          <NextVideo   autoPlay className='screenRecording' loop src={screenRecording}/>
         </div>  
       </div>
       <div className="savingCompanyContainer" >
