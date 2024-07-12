@@ -57,53 +57,59 @@ export default function Home() {
           </div>
         </div>
         <div className="deviceContainer">
-          <NextVideo   autoPlay className='screenRecording' loop src={screenRecording}/>
+          <NextVideo autoPlay loop className='screenRecording' src={screenRecording}/>
         </div>  
       </div>
-      <div className="savingCompanyContainer" >
-        <div className="savingTimeContainer">
-          <div className="pictureContainer">
-            <Image className="clock"src={clock} />
+
+      <div className="savingCompanyContainer">
+        <div className="savingContainer">
+          <div className="titleName">
+            <p>Save Time</p>
           </div>
           <div className="stringContainer">
-              <div className="header">
-                <p>Save Time</p>
-              </div>
-              <div className="info">
-                <p>Manage all your forms in the palm of your hands, saving time by :</p>
-                <ul>
-                  <li> &nbsp; &#8226; Reducing the time spent sorting through stacks of paper</li>
-                  <li> &nbsp;&#8226; Streamlining data retrieval</li>
-                  <li> &nbsp; &#8226;  improving organnization and accessibility</li>
-                  <li> &nbsp; &#8226; Minimizing errors from manual handling  </li>  
-                </ul>
-                <p>Experience increased efficiency and productivity, allowing you to 
-                  focus on what matters most—serving your customers and growing your business.</p>
-              </div>
+            <ul>
+              <ol>&#8226; Reduce time sorting through paper</ol>
+              <ol>&#8226; Minimize error from manual handling</ol>
+              <ol>&#8226; Streamline data retrieval</ol>
+            </ul>
+          </div>
+          <div className="picture">
+            <Image src={clock}/>
           </div>
         </div>
-        <div className="savingEffortContainer" >
+
+        <div className="savingContainer">
+          <div className="titleName">
+            <p>Enhance Communcation</p>
+          </div>
           <div className="stringContainer">
-                <div className="header">
-                  <p>Save Effort</p>
-                </div>
-                <div className="info">
-                  <p>TagLink offers an efficient reporting tool:</p>
-                  <ul>
-                    <li> &nbsp; &#8226; Store information in one place </li>
-                    <li> &nbsp;&#8226; Retrieve information quickly </li>
-                    <li> &nbsp; &#8226;  Simplify data management </li>
-                    <li> &nbsp; &#8226; Reduce paperwork clutter </li>  
-                  </ul>
-                  <p>These tools ensure that you and your employees are
-                     always up to date with the latest updates on each vehicle, 
-                     enhancing productivity and accuracy.</p>
-                </div>
-            </div>
-          <div className="pictureContainer">
-            <Image src={effort}/>
+            <ul>
+              <ol>&#8226; Share information between departments</ol>
+              <ol>&#8226; Keep your entire team informed with real-time updates</ol>
+              <ol>&#8226; Enable technicians and other staff to suggest improvements.</ol>
+            </ul>
+          </div>
+          <div className="picture">
+            <Image src={clock}/>
           </div>
         </div>
+
+        <div className="savingContainer">
+          <div className="titleName">
+            <p>Save Time</p>
+          </div>
+          <div className="stringContainer">
+            <ul>
+              <ol>&#8226; Reduce time sorting through paper</ol>
+              <ol>&#8226; Minimize error from manual handling</ol>
+              <ol>&#8226; Streamline data retrieval</ol>
+            </ul>
+          </div>
+          <div className="picture">
+            <Image src={clock}/>
+          </div>
+        </div>
+
       </div>
     </main>
   );
