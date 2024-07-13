@@ -3,6 +3,7 @@ import NextVideo from"next-video"
 import screenRecording from "/videos/updatedVideo.mp4"
 import image from "../public/emblem.png"  
 import clock from "../public/clock.png"
+import enhanceSpeaker from "../public/enhanceCommunication.png"
 import Image from "next/image"
 import Link from 'next/link';  
 
@@ -63,7 +64,7 @@ export default function Home() {
 
       <div className="savingCompanyContainer">
         <div className="savingContainer">
-          <div className="titleName">
+          <div className="titleName" >
             <p>Save Time</p>
           </div>
           <div className="stringContainer">
@@ -79,7 +80,7 @@ export default function Home() {
         </div>
 
         <div className="savingContainer">
-          <div className="titleName">
+          <div className="titleNameEnhanceCom">
             <p>Enhance Communcation</p>
           </div>
           <div className="stringContainer">
@@ -89,24 +90,24 @@ export default function Home() {
               <ol>&#8226; Enable technicians and other staff to suggest improvements.</ol>
             </ul>
           </div>
-          <div className="picture">
-            <Image src={clock}/>
+          <div className="pictureEH" >
+            <Image src={enhanceSpeaker}/>
           </div>
         </div>
 
         <div className="savingContainer">
           <div className="titleName">
-            <p>Save Time</p>
+            <p>Save Effort</p>
           </div>
           <div className="stringContainer">
             <ul>
-              <ol>&#8226; Reduce time sorting through paper</ol>
-              <ol>&#8226; Minimize error from manual handling</ol>
-              <ol>&#8226; Streamline data retrieval</ol>
+              <ol>&#8226; Store information in one place </ol>
+              <ol>&#8226; Simplify data management</ol>
+              <ol>&#8226; Reduce paperwork clutter</ol>
             </ul>
           </div>
           <div className="picture">
-            <Image src={clock}/>
+            <Image src={effort}/>
           </div>
         </div>
 
