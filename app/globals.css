@@ -119,7 +119,7 @@ body {
     
   }
   .deviceContainer{
-    height: 28em;
+    /* height: 28em; */
     width: 15em;
     margin-left: 3em;
     /* border:2px solid #AEADAD; */
@@ -127,9 +127,28 @@ body {
   .screenRecording{
     min-height: 30rem;
   }
+  .whyTagLinkContainer{
+    width: 17em;
+    margin: auto;
+    margin-top: 7em;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .title{
+    font-size: 1.5em;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .string{
+    font-size: 0.9em;
+    margin: auto;
+    color: #AEADAD;
+    /* border: 2px dashed grey; */
+  }
   .savingCompanyContainer{
     margin: auto;
-    margin-top: 8em;
+    margin-top: 3em;
     width: 64em;
     display: flex;
     /* border: 2px dashed #AEADAD; */
@@ -304,6 +323,35 @@ body {
     width: 15em;
     margin: auto;
     margin-top: 2em;
+  }
+  .footer{
+    margin-top: 5em;
+    height: 10em;
+    display: flex;
+    color: #9BCBD5;
+    background-color: #454545;
+    /* border: 2px dashed grey; */
+  }
+  .footer .footerContainer{
+    /* width: 15em; */
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer{
+    height: 100%;
+    margin-right: 5em;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer .title{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 1.6em;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer .string{
+    font-size: 0.9em;
   }
 }
 

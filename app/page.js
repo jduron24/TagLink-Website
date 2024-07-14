@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NextVideo from"next-video"
 import screenRecording from "/videos/updatedVideo.mp4"
+import mainVideo from "/videos/TagLinkMainVideo.mp4"
 import image from "../public/emblem.png"  
 import clock from "../public/clock.png"
 import enhanceSpeaker from "../public/enhanceCommunication.png"
@@ -43,12 +44,12 @@ export default function Home() {
             <p style={{color: '#9BCBD5'}}>for car dealerships</p>
           </div>
           <div className="littleContainer">
-            <p>Helping leading car dealers efficiently manage information
+            <p>Helping leading car dealers effi ciently manage information
               with TagLink through personalized forms and cloud storage.</p>
           </div>
         </div>
         <div className="videoContainer">
-
+            <NextVideo src={mainVideo}/>
         </div>
       </div>
       <div className="phoneExampleContainer">
@@ -60,6 +61,16 @@ export default function Home() {
         <div className="deviceContainer">
           <NextVideo autoPlay loop className='screenRecording' src={screenRecording}/>
         </div>  
+      </div>
+
+      <div className="whyTagLinkContainer">
+        <div className="title">
+          <p>Why TagLink?</p>
+        </div>
+        <div className="string">
+          <p>With TagLink, manage all your vehicle
+            information in the palm if your hand.</p>
+        </div>
       </div>
 
       <div className="savingCompanyContainer">
@@ -110,7 +121,28 @@ export default function Home() {
             <Image src={effort}/>
           </div>
         </div>
+      </div>
+      
+      <div className="footer">
+        <div className="footerContainer">
+          <div className="contactContainer">
+            <div className="title">
+              <p>CONTACT</p>
+            </div>
+            <div className="string">
+              <p>Email: TagLink2024@gmail.com</p>
+            </div>
+          </div>
 
+          <div className="contactContainer">
+            <div className="title">
+              <p>MENU</p>
+            </div>
+            <div className="string">
+              <p><Link href="/">Home</Link> <br/> <Link href="/aboutUs">About</Link> <br/> <Link href="/contact">Contact</Link></p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -6,7 +6,7 @@ import headShot from "../../public/jonathanDuronheadShot.jpg"
 
 export default function AboutUs() {
     return (
-        <main className=""  style={{}}>
+        <main className=""  style={{backgroundColor:"#F8F8F8"}}>
             <nav className="navBar" style={{backgroundColor:"#363636"}}>
                 <div className="TagLinkHomeScreenContainer">
                     <div className="TagLinkLogo" style={{display:"flex"}}>
@@ -71,6 +71,29 @@ export default function AboutUs() {
                     </div>
                 </div>
             </div>
+            
+            <div className="footer">
+                <div className="footerContainer">
+                    <div className="contactContainer">
+                        <div className="title">
+                        <p>CONTACT</p>
+                        </div>
+                        <div className="string">
+                        <p>Email: TagLink2024@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div className="contactContainer">
+                        <div className="title">
+                        <p>MENU</p>
+                        </div>
+                        <div className="string">
+                            <p><Link href="/">Home</Link> <br/> <Link href="/aboutUs">About</Link> <br/> <Link href="/contact">Contact</Link></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
     );
   }

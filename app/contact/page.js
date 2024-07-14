@@ -44,8 +44,32 @@ export default function Contact() {
                 <div className="submitButton">
                     <button className="button">Submit Form</button>
                 </div>
-                
             </div>
+
+
+            <div className="footer">
+                <div className="footerContainer">
+                <div className="contactContainer">
+                    <div className="title">
+                    <p>CONTACT</p>
+                    </div>
+                    <div className="string">
+                    <p>Email: TagLink2024@gmail.com</p>
+                    </div>
+                </div>
+
+                <div className="contactContainer">
+                    <div className="title">
+                    <p>MENU</p>
+                    </div>
+                    <div className="string">
+                    <p><Link href="/">Home</Link> <br/> <Link href="/aboutUs">About</Link> <br/> <Link href="/contact">Contact</Link></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
         </main>
     )
 }
