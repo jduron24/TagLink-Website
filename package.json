@@ -2,7 +2,7 @@
   "homepage": "https://jduron24.github.io/app",
   "name": "taglink-website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "next dev & npx next-video sync -w",
@@ -21,7 +21,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "eslint": "^9",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.2.5",
     "gh-pages": "^6.1.1",
     "postcss": "^8",
