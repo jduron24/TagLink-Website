@@ -32,7 +32,7 @@ body {
   }
 }
 
-@media screen and ( 800px < width  < 1600px){
+@media screen and ( 1000px <  width  < 2001px){
   .navBar {
     width: 100%;
     display: flex;
@@ -357,11 +357,15 @@ body {
 
 
 
-@media screen and ( width <= 812px){
+
+
+
+
+@media screen and ( width <= 1030px){
   .navBar {
     width: 100%;
     display: flex;
-    border: 1px dashed grey;
+    /* border: 1px dashed grey; */
   }
   .TagLinkHomeScreenContainer{
     width: 5%;
@@ -426,7 +430,7 @@ body {
     margin: auto;
     width: 30em;
     height: 17em;
-    border: 2px solid #AEADAD;
+    /* border: 2px solid #AEADAD; */
   }
   .phoneExampleContainer{
     margin: auto;
@@ -444,33 +448,23 @@ body {
     margin-left: 5em;
     
   }
-  .deviceContainer{
-    height: 28em;
-    width: 15em;
-    margin-left: 3em;
-    border:2px solid #AEADAD;
-  }
-  .savingCompanyContainer{
-    margin: auto;
-    margin-top: 8em;
-    width: 64em;
-    /* border: 2px dashed #AEADAD; */
-  }
+  
+  
   .savingTimeContainer .pictureContainer{
     width: 20em;
     height: 20em;
     margin-left: 8em;
     margin-top: 1.3em;
-    border: 1px solid #AEADAD;
+    /* border: 1px solid #AEADAD; */
   }
   .savingTimeContainer{
     display: flex;
   }  
-  .savingCompanyContainer .stringContainer{
+  /* .savingCompanyContainer .stringContainer{
     margin-left: 4em;
     width: 26em;
-    
-  }
+    border: 1px solid #AEADAD;
+  } */
   .stringContainer .header{
     font-size: 2.2em;
     font-weight: 600;
@@ -528,24 +522,28 @@ body {
     color: #9BCBD5;
   }
   .ourStoryContainer .string{
+    
     margin-top:2em;
     margin-bottom: 2em;
     width: 24.3em;
+    margin: auto;
     text-align: left;
     color: #AEADAD;
     font-size: 1.4em;
     font-weight: 600;
+    /* border: 2px dashed grey; */
   }
   .ourStoryContainer .section{
-    margin: auto;
-    display: flex;
-    width: 70em;
+    
+    /* display: flex; */
+    /* width: 70em; */
+    /* border: 2px dashed grey; */
   }
   .ourStoryContainer .section .picture{ 
-    margin-left: 2em;
-    margin-top: 2.8em;
-    margin-bottom: 2.8em;
     width: 30em;
+    margin: auto;
+    /* border: 2px dashed grey; */
+    
   }
   .contactUsPageContainer{
     width: 40em;
@@ -600,5 +598,132 @@ body {
     width: 15em;
     margin: auto;
     margin-top: 2em;
+  }
+
+  .deviceContainer{
+    /* height: 28em; */
+    width: 15em;
+    margin-left: 3em;
+    /* border:2px solid #AEADAD; */
+  }
+  .screenRecording{
+    min-height: 30rem;
+  }
+  .whyTagLinkContainer{
+    width: 17em;
+    margin: auto;
+    margin-top: 7em;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .title{
+    font-size: 1.5em;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .string{
+    font-size: 0.9em;
+    margin: auto;
+    color: #AEADAD;
+    /* border: 2px dashed grey; */
+  }
+  .savingCompanyContainer{
+    margin: auto;
+    margin-top: 3em;
+    width: 100%;
+    /* display: flex; */
+    /* border: 2px dashed #AEADAD; */
+  }
+  .savingTimeContainer .pictureContainer{
+    /* width: 20em; */
+    height: 20em;
+    margin-left: 6em;
+    margin-top: 1.5em;
+    /* border: 1px solid #AEADAD; */
+  }
+  .savingContainer{
+    width: 25em;
+    height: 30em;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 1em;
+    border: 1px solid #AEADAD;
+  }
+  .titleName{
+    font-size: 2em; 
+    font-weight:600;
+    margin-top: 1em;
+    margin-left: 1em;
+    line-height: 0.9em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid #AEADAD ; */
+    color: #9BCBD5;
+  }
+  .titleNameEnhanceCom{
+    font-size: 2em; 
+    font-weight:600;
+    margin-top: 0.2em;
+    margin-left: 1em;
+    line-height: 0.9em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid #AEADAD ; */
+    color: #9BCBD5;
+  }
+  .savingContainer .stringContainer{
+    font-size: 1em;
+    width:19em;
+    margin-left: 2em;
+    line-height: 1.7em;
+    color: #9BCBD5;
+    /* border: 1px solid #AEADAD ; */
+  }
+  .savingContainer .picture {
+    /* margin-top: 3em; */
+    margin-right: 1em;
+    transform: scale(0.6);
+    /* border: 1px solid #AEADAD ; */
+  }
+  .savingContainer .pictureEH {
+    transform: scale(0.7);
+    /* border: 1px solid #AEADAD ; */
+  }
+  .savingEffortContainer .pictureContainer{
+    width: 20em;
+    height: 20em;
+    margin-left: 3em;
+    margin-top: 1.3em;
+    /* border: 1px solid #AEADAD; */
+  }
+
+  .footer{
+    margin-top: 5em;
+    height: 10em;
+    display: flex;
+    color: #9BCBD5;
+    background-color: #454545;
+    /* border: 2px dashed grey; */
+  }
+  .footer .footerContainer{
+    /* width: 15em; */
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer{
+    height: 100%;
+    margin-right: 5em;
+    /* border: 2px dashed grey; */
+  }
+
+  .footer .contactContainer .title{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 1.6em;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer .string{
+    font-size: 0.9em;
   }
 }
