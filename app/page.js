@@ -44,7 +44,7 @@ export default function Home() {
             <p style={{color: '#9BCBD5'}}>for car dealerships</p>
           </div>
           <div className="littleContainer">
-            <p>Helping leading car dealers effi ciently manage information
+            <p>Helping leading car dealers efficiently manage information
               with TagLink through personalized forms and cloud storage.</p>
           </div>
         </div>

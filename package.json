@@ -2,7 +2,7 @@
   "homepage": "https://jduron24.github.io/app",
   "name": "taglink-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "next dev & npx next-video sync -w",
