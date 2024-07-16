@@ -13,7 +13,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className="aboutUsContainer">
+                <div className="aboutUsContainer"> 
                     <div className="aboutUs">
                         
                         <Link href="/aboutUs">About Us</Link>

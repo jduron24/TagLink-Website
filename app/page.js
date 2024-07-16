@@ -1,6 +1,6 @@
 import Head from "next/head";
 import NextVideo from"next-video"
-import screenRecording from "/videos/updatedVideo.mp4"
+import screenRecording from "/videos/phoneVideo.mp4"
 import mainVideo from "/videos/TagLinkMainVideo.mp4"
 import image from "../public/emblem.png"  
 import clock from "../public/clock.png"
