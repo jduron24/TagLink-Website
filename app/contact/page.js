@@ -38,7 +38,7 @@ export default function Contact() {
                         <input className="input" type="text" placeholder="Your Email"/>
                     </div>
                     <div className="yourMessage" >
-                        <textarea className="message" placeholder="Your Message"rows={10} cols={30} />
+                        <textarea className="message" placeholder="Your Message"rows={10} cols={55} />
                     </div>
                 </div>
                 <div className="submitButton">
