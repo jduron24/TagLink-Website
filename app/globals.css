@@ -361,7 +361,7 @@ body {
 
 
 
-@media screen and ( width <= 1030px){
+@media screen and ( 800px < width <= 1030px){
   .navBar {
     width: 100%;
     display: flex;
@@ -694,6 +694,365 @@ body {
     margin-left: 3em;
     margin-top: 1.3em;
     /* border: 1px solid #AEADAD; */
+  }
+
+  .footer{
+    margin-top: 5em;
+    height: 10em;
+    display: flex;
+    color: #9BCBD5;
+    background-color: #454545;
+    /* border: 2px dashed grey; */
+  }
+  .footer .footerContainer{
+    /* width: 15em; */
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer{
+    height: 100%;
+    margin-right: 5em;
+    /* border: 2px dashed grey; */
+  }
+
+  .footer .contactContainer .title{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 1.6em;
+    /* border: 2px dashed grey; */
+  }
+  .footer .contactContainer .string{
+    font-size: 0.9em;
+  }
+}
+
+
+
+
+
+
+
+@media screen and ( 800px > width){
+  .navBar {
+    width: 100%;
+    display: flex;
+    /* border: 1px dashed grey; */
+  }
+  .TagLinkHomeScreenContainer{
+    width: 5%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .TagLinkHomeScreenContainer .TagLinkName{
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+    margin: auto;
+    width: auto;
+    margin-left: 5%;
+  }
+  .TagLinkHomeScreenContainer .TagLinkLogo Image{
+    width: 1%;
+  }
+  .aboutUsContainer{
+    margin-left: 30%;
+  }
+  .aboutUsContainer .aboutUs{
+    padding-top: 1.2em;
+    font-weight:500;
+    font-size:1.2em;
+    color: #9BCBD5;
+  }
+  .contactUsContainer{
+    margin-left: 10%;
+  }
+  .contactUsContainer .contactUs{
+    padding-top: 1.2em;
+    font-weight:500;
+    font-size:1.2em;
+    color: #9BCBD5;
+  }
+  .introContainer{
+    margin: auto;
+    margin-top: 9em;
+    /* width: 44em; */
+    /* display: flex; */
+    /* border: 2px dashed grey; */
+  }
+  .introContainer .letterContainer{
+    /* width: 31.5em; */
+    /* border: 2px dashed grey; */
+  }
+  .introContainer .letterContainer .bigLetterContainer{
+    line-height: 1.2;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+  }
+  .introContainer .letterContainer .littleContainer{
+    /* width: 19em; */
+    font-size: 01em;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #AEADAD;
+  }
+  .videoContainer{
+    /* border: 2px solid #AEADAD; */
+  }
+  .phoneExampleContainer{
+    margin: auto;
+    margin-top: 9em;
+    /* width: 50em; */
+    display: flex;
+    /* border: 2px dashed grey; */
+  }
+  .phoneExampleContainer .letterContainer .bigLetterContainer{
+    width: 60%;
+    /* height: 100%; */
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 8em;
+    /* margin-left: 5em; */
+    /* border: 2px dashed grey; */
+  }
+  
+  
+  .savingTimeContainer .pictureContainer{
+    width: 20em;
+    height: 20em;
+    margin-left: 8em;
+    margin-top: 1.3em;
+    /* border: 1px solid #AEADAD; */
+  }
+  .savingTimeContainer{
+    display: flex;
+  }  
+  /* .savingCompanyContainer .stringContainer{
+    margin-left: 4em;
+    width: 26em;
+    border: 1px solid #AEADAD;
+  } */
+  .stringContainer .header{
+    font-size: 2.2em;
+    font-weight: 600;
+    margin: auto;
+    color: #9BCBD5;
+    margin-left: 4em;
+  }
+  .stringContainer .info{
+    font-size: 1.2em;
+    color: #AEADAD;
+  }
+  .savingEffortContainer{
+   display: flex;
+   margin-top: 1.5em;
+  }
+  .aboutTagLinkContainer{
+    background-color: #FEFDFD ;
+  }
+  .aboutTagLinkContainer .sectionContainer{
+    /* width: 40em; */
+    margin: auto;
+    border: 1px dashed #FEFDFD;
+  }
+  .aboutTagLinkContainer .header{
+    font-size: 2.3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1em;
+    color: #9BCBD5;
+  }
+  .aboutTagLinkContainer .sectionContainer .string{
+    margin: auto;
+    margin-top:3em;
+    margin-bottom: 2em;
+    /* width: 24em; */
+    color: #AEADAD;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .ourStoryContainer{
+    background-color: #F8F8F8;
+  }
+  .ourStoryContainer .header{
+    font-size: 2.3em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5em;
+    color: #9BCBD5;
+  }
+  .ourStoryContainer .string{
+    
+    margin-top:2em;
+    margin-bottom: 2em;
+    /* width: 24.3em; */
+    margin: auto;
+    text-align: left;
+    color: #AEADAD;
+    font-size: 1em;
+    font-weight: 600;
+    /* border: 2px dashed grey; */
+  }
+  .ourStoryContainer .section{
+    
+    /* display: flex; */
+    /* width: 70em; */
+    /* border: 2px dashed grey; */
+  }
+  .ourStoryContainer .section .picture{ 
+    /* width: 30em; */
+    margin: auto;
+    /* border: 2px dashed grey; */
+    
+  }
+  .contactUsPageContainer{
+    /* width: 40em; */
+    margin: auto;
+    /* border: 2px dashed grey; */
+  }
+  .contactUsPageContainer .header{
+    font-size: 2.3em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5em;
+    color: #9BCBD5;
+  }
+  .userInput .yourName{
+    margin: auto;
+    width: 20em;
+    color: black;
+    /* border: 2px dashed grey; */
+  }
+  .userInput .input{
+    height: 2em;
+    border-radius: 0.5em;
+    width: 19.7em;
+  }
+  .userInput .yourEmail{
+    margin: auto;
+    margin-top: 1.3em;
+    width: 20em;
+    color: black;
+    /* border: 2px dashed grey; */
+  }
+  .userInput .yourMessage{
+    /* width: 30em; */
+    margin: auto; 
+    margin-top: 3em;
+    color: black;
+    /* border: 2px dashed grey; */
+  }
+  .userInput .yourMessage .message{
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 0.6em;
+  }
+  .contactUsPageContainer .submitButton .button{
+    border-radius: 0.6em;
+    width: 11.4em;
+    height: 2.1em;
+    font-size: 1.3em;
+    background-color: #9BCBD5;
+  }
+  .contactUsPageContainer .submitButton{
+    width: 15em;
+    margin: auto;
+    margin-top: 2em;
+  }
+
+  .deviceContainer{
+    width: 14em;
+    margin: auto;
+    /* border:2px solid #AEADAD; */
+  }
+  .screenRecording{
+    min-height: 30rem;
+  }
+  .whyTagLinkContainer{
+    width: 17em;
+    margin: auto;
+    margin-top: 7em;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .title{
+    font-size: 1.5em;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    /* border: 2px dashed grey; */
+  }
+  .whyTagLinkContainer .string{
+    font-size: 0.9em;
+    margin: auto;
+    color: #AEADAD;
+    /* border: 2px dashed grey; */
+  }
+  .savingCompanyContainer{
+    margin: auto;
+    margin-top: 3em;
+    width: 100%;
+    /* display: flex; */
+    /* border: 2px dashed #AEADAD; */
+  }
+  .savingTimeContainer .pictureContainer{
+    /* width: 20em; */
+    height: 20em;
+    margin-left: 6em;
+    margin-top: 1.5em;
+    /* border: 1px solid #AEADAD; */
+  }
+  .savingContainer{
+    /* width: 25em; */
+    height: 30em;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 1em;
+    border: 1px solid #AEADAD;
+  }
+  .titleName{
+    font-size: 2em; 
+    font-weight:600;
+    margin-top: 1em;
+    margin-left: 1em;
+    line-height: 0.9em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid #AEADAD ; */
+    color: #9BCBD5;
+  }
+  .titleNameEnhanceCom{
+    font-size: 2em; 
+    font-weight:600;
+    margin-top: 0.2em;
+    margin-left: 1em;
+    line-height: 0.9em;
+    margin-bottom: 0.5em;
+    /* border: 1px solid #AEADAD ; */
+    color: #9BCBD5;
+  }
+  .savingContainer .stringContainer{
+    font-size: 1em;
+    /* width:19em; */
+    margin-left: 2em;
+    line-height: 1.7em;
+    color: #9BCBD5;
+    /* border: 1px solid #AEADAD ; */
+  }
+  .savingContainer .picture {
+    /* margin-top: 3em; */
+    /* margin-right: 1em; */
+    transform: scale(0.6);
+    /* margin: auto; */
+    border: 1px solid #AEADAD ;
+  }
+  .savingContainer .pictureEH {
+    transform: scale(0.6);
+    /* border: 1px solid #AEADAD ; */
   }
 
   .footer{

@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="contactUsContainer">
           <div className="contactUs">
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact" >Contact</Link>
           </div>
         </div>
       </nav>
@@ -48,17 +48,17 @@ export default function Home() {
               with TagLink through personalized forms and cloud storage.</p>
           </div>
         </div>
-        <div className="videoContainer">
+        <div className="videoContainer" >
             <NextVideo src={mainVideo}/>
         </div>
       </div>
       <div className="phoneExampleContainer">
-        <div className="letterContainer">
+        <div className="letterContainer" >
           <div className="bigLetterContainer">
             <p>Our innovative software makes it easier to store and receive data for your dealer</p>
           </div>
         </div>
-        <div className="deviceContainer">
+        <div className="deviceContainer"> 
           <NextVideo autoPlay loop className='screenRecording' src={screenRecording}/>
         </div>  
       </div>
