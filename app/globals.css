@@ -968,8 +968,9 @@ body {
 
   .deviceContainer{
     width: 14em;
+    height: 100%;
     margin: auto;
-    /* border:2px solid #AEADAD; */
+    border:2px solid #AEADAD;
   }
   .screenRecording{
     min-height: 30rem;
