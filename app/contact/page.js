@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from 'next/link';
 export default function Contact() {
     return (
-        <main className=""  style={{backgroundColor:"#363636",height:"100vh"}}>
+        <main className="main"  style={{backgroundColor:"#363636"}}>
             <nav className="navBar" style={{backgroundColor:"#363636"}}>
                 <div className="TagLinkHomeScreenContainer">
                     <div className="TagLinkLogo" style={{display:"flex"}}>
@@ -38,7 +38,7 @@ export default function Contact() {
                         <input className="input" type="text" placeholder="Your Email"/>
                     </div>
                     <div className="yourMessage" >
-                        <textarea className="message" placeholder="Your Message"rows={10} cols={55} />
+                        <textarea className="message" placeholder="Your Message"rows={10} cols={45} />
                     </div>
                 </div>
                 <div className="submitButton">

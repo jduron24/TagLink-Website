@@ -44,8 +44,9 @@ export default function Home() {
             <p style={{color: '#9BCBD5'}}>for car dealerships</p>
           </div>
           <div className="littleContainer">
-            <p>Helping leading car dealers efficiently manage information
-              with TagLink through personalized forms and cloud storage.</p>
+            <p>TagLink helps independent car dealers 
+              effeciently manage information through 
+              personalized forms and cloud storage. </p>
           </div>
         </div>
         <div className="videoContainer" >
@@ -59,7 +60,7 @@ export default function Home() {
           </div>
         </div>
         <div className="deviceContainer"> 
-          <NextVideo autoPlay loop className='screenRecording' src={screenRecording}/>
+          <NextVideo  autoPlay loop className='screenRecording' src={screenRecording} />
         </div>  
       </div>
 

@@ -119,15 +119,18 @@ body {
     margin-left: 4em;
     color: white;
   }
-  .deviceContainer{
-    /* height: 28em; */
+  .deviceContainer {
     width: 15em;
     margin-left: 3em;
-    /* border:2px solid #AEADAD; */
   }
-  .screenRecording{
-    min-height: 30rem;
+  
+  .screenRecording {
+    height: 30em;
+    
+    object-fit: cover; /* Ensure the video covers the container properly */
+    /* border: 2px solid #AEADAD; */
   }
+
   .whyTagLinkContainer{
     width: 17em;
     margin: auto;
@@ -303,7 +306,7 @@ body {
     /* border: 2px dashed grey; */
   }
   .userInput .yourMessage{
-    width: 30em;
+    width: 29.5em;
     margin: auto;
     margin-top: 3em;
     color: black;
@@ -313,6 +316,7 @@ body {
     justify-content: center; 
     align-items: center; 
     border-radius: 0.6em;
+    /* border: 2px dashed grey; */
   }
   .contactUsPageContainer .submitButton .button{
     border-radius: 0.6em;
