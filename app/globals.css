@@ -975,11 +975,16 @@ body {
     margin-top: 2em;
   }
 
-  .deviceContainer{
-    width: 14em;
-    height: 100%;
-    margin: auto;
-    border:2px solid #AEADAD;
+  .deviceContainer {
+    width: 15em;
+    margin-left: 3em;
+  }
+  
+  .screenRecording {
+    height: 30em;
+    
+    object-fit: cover; /* Ensure the video covers the container properly */
+    /* border: 2px solid #AEADAD; */
   }
   .screenRecording{
     min-height: 30rem;
@@ -1059,7 +1064,7 @@ body {
     /* margin-right: 1em; */
     transform: scale(0.6);
     /* margin: auto; */
-    border: 1px solid #AEADAD ;
+    /* border: 1px solid #AEADAD ; */
   }
   .savingContainer .pictureEH {
     transform: scale(0.6);
