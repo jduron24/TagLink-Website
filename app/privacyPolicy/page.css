@@ -1,0 +1,16 @@
+.policyContainer{
+    width: 60%;
+    margin: auto;
+    /* border: 2px dashed grey; */
+}
+.policyContainer .titleContainer {
+    font-size: 2em;
+    font-weight: 600;
+}
+.subHeading{
+    font-weight: 600;
+}
+.policyContainer .string{
+    width: 100%;
+    /* border: 2px dashed grey; */
+}
