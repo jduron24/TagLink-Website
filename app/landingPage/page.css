@@ -1,5 +1,6 @@
 @media screen and ( width >= 768px){
 .main{
+    height: 130vh;
     display:flex
 }
 .firstHalfContainer{
