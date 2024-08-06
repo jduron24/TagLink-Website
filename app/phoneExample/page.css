@@ -13,7 +13,7 @@
     }
     .rowOfInput{
     display: flex;
-     border: 2px dashed grey;
+     /* border: 2px dashed grey; */
     }
     .inputContainer{
         font-size: 1.5em;
