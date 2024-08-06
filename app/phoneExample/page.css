@@ -12,9 +12,8 @@
         
     }
     .rowOfInput{
-        text-align: center;
-        display: flex;
-     
+    display: flex;
+     border: 2px dashed grey;
     }
     .inputContainer{
         font-size: 1.5em;
