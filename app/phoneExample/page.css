@@ -1,0 +1,65 @@
+@media screen and ( 800px > width ){
+    .mainContainer{
+        background-color: white;
+        /* border: 2px dashed grey; */
+    }
+    .title{
+        font-size:3em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .field{
+        
+    }
+    .rowOfInput{
+        text-align: center;
+        display: flex;
+     
+    }
+    .inputContainer{
+        font-size: 1.5em;
+        width: 35%;
+        margin-left: 3em;
+     
+    }
+    .rowOfInput .input{
+
+        font-weight: 600;
+    }
+    .YesNoContainer{
+        display: flex;
+
+    }
+    .YesNoContainer .string{
+        margin-left: 60%;
+    }
+
+   .fieldContainer {
+        display: flex;
+        /* border: 2px dashed grey; */
+   }
+   .fieldContainer .fieldName{
+    padding: 1%;
+    width: 20%;
+    /* border: 2px dashed grey; */
+   }
+   .checkBox{
+    font-size: 1.5em;
+    margin-left: 41%;
+   }
+   .notesContainer{
+    display: flex;
+    /* border: 2px dashed grey; */
+   }
+   .stringContainer{
+    margin-left: 10%;
+   }
+   .notesBox{
+    height: 10em;
+    width: 70%;
+    opacity: 50%;
+    border-radius: 10px;
+    border: 2px solid black;
+   }
+ 
+}
