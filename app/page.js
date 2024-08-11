@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           <div className="littleContainer">
             <p>TagLink helps independent car dealers 
-              effeciently manage information through 
+              efficiently manage information through 
               personalized forms and cloud storage. </p>
           </div>
         </div>
