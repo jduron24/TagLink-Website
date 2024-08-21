@@ -5,6 +5,8 @@ import './page.css'
 import Image from "next/image"
 import emailjs from '@emailjs/browser';
 import { useRef,useState } from "react"
+import NextVideo from"next-video"
+import whatIsNFC from "/videos/whatIsNFC.mp4"
 
 
 export default function LandingPage() {
@@ -67,7 +69,9 @@ export default function LandingPage() {
                                     <button type="submit" className="getStarted"> Get Started</button>
                                 </div>
                             </form>
-
+                    </div>
+                    <div className="whatIsNFCContainer">
+                        <NextVideo src={whatIsNFC}  className="container"/>
                     </div>
                 </>
             )}

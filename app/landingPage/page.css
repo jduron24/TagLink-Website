@@ -92,6 +92,23 @@
     /* object-fit:cover; */
     /* border: 2px dashed grey; */
 }
+.whatIsNFCContainer  {
+    margin-top: 5em;
+    
+
+    /* border: 2px dashed black; */
+}
+
+.whatIsNFCContainer .container {
+    margin: auto;
+    width: 50em;
+    height: 25em;
+    
+}
+
+
+
+
 }
 
 @media screen and ( width < 768px){
@@ -130,6 +147,7 @@
 .stringLetterContainer{
     width: 50%;
     margin: auto;
+    color: white;
     /* margin-top: 23%; */
     /* border: 2px dashed grey; */
  
@@ -194,5 +212,17 @@
     height: 100%;
     /* object-fit:cover; */
     /* border: 2px dashed grey; */
+}
+.whatIsNFCContainer  {
+    margin-top: 5em;
+    
+
+    /* border: 2px dashed black; */
+}
+
+.whatIsNFCContainer .container {
+    margin: auto;
+  
+    
 }
 }
