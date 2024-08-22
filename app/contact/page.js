@@ -1,7 +1,32 @@
+'use client'
 import image from "../../public/emblem.png"
 import Image from "next/image"
 import Link from 'next/link';
+import { useRef,useState } from "react"
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
+    const form = useRef()
+    const [submittedForm, setSubmittedForm] = useState(true)
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        setSubmittedForm(false);
+    
+        emailjs
+          .sendForm('service_9twrsx9', 'template_eaa3ixn', form.current, {
+            publicKey: 'CFO1QmBQGVvam-rzi',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+          event.target.reset()
+      };
     return (
         <main className="main"  style={{backgroundColor:"#363636"}}>
             <nav className="navBar" style={{backgroundColor:"#363636"}}>
@@ -31,19 +56,34 @@ export default function Contact() {
                     <p>Contact Us</p>
                 </div>
                 <div className="userInput">
-                    <div className="yourName">
-                        <input className="input" type="text" placeholder="Your Name"/>
-                    </div>
-                    <div className="yourEmail">
-                        <input className="input" type="text" placeholder="Your Email"/>
-                    </div>
-                    <div className="yourMessage" >
-                        <textarea className="message" placeholder="Your Message"rows={10} cols={45} />
-                    </div>
+                    {submittedForm && (
+                        <>
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="yourName">
+                                    <input className="input" type="text" placeholder="Your Name"/>
+                                </div>
+                                <div className="yourEmail">
+                                    <input className="input" type="text" placeholder="Your Email"/>
+                                </div>
+                                <div className="yourMessage" >
+                                    <textarea className="message" placeholder="Your Message"rows={10} cols={45} />
+                                </div>
+                                <div className="submitButton">
+                                    <button className="button">Submit Form</button>
+                                </div>
+                            </form>
+                        </> 
+                    )}
+                    {!submittedForm && (
+                        <>
+                            <div className="string">
+                            Thank you for submitting your information!<br/> We will get back to you soon.
+                            </div>
+                            
+                        </>
+                    )}
                 </div>
-                <div className="submitButton">
-                    <button className="button">Submit Form</button>
-                </div>
+               
             </div>
 
 
