@@ -65,7 +65,7 @@ export default function Contact() {
                                 <div className="yourEmail">
                                     <input className="input" type="text" placeholder="Your Email"/>
                                 </div>
-                                <div className="yourMessage" >
+                                <div className="yourMessage">
                                     <textarea className="message" placeholder="Your Message"rows={10} cols={45} />
                                 </div>
                                 <div className="submitButton">
@@ -76,7 +76,7 @@ export default function Contact() {
                     )}
                     {!submittedForm && (
                         <>
-                            <div className="string">
+                            <div className="thankYouForInfo">
                             Thank you for submitting your information!<br/> We will get back to you soon.
                             </div>
                             
